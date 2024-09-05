@@ -6,7 +6,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        Scanner scanner = new Scanner(System.in);
+        /* Scanner scanner = new Scanner(System.in);
 
         System.out.println("Ievadi vārdu: ");
         String name = scanner.nextLine();
@@ -18,7 +18,24 @@ public class App
         String group = scanner.nextLine();
     
 
-        System.out.println(name + " " + surname + " " + group);
+        System.out.println(name + " " + surname + " " + group); */
+
+        int chicken = 3;
+        double bacon = 5.5;
+        String tractor = "None!";
+
+        System.out.println("Chicken: ");
+        System.out.println(chicken);
+        System.out.println("Bacon(kg)");
+        System.out.println(bacon);
+        System.out.println("Tractor");
+        System.out.println(tractor);
+
+        System.out.println("");
+        System.out.println("And finally, a summary: ");
+        System.out.println(chicken);
+        System.out.println(bacon);
+        System.out.println(tractor);
     }
 
 }
