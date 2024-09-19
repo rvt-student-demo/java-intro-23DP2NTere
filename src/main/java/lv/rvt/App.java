@@ -3,7 +3,28 @@ package lv.rvt; // Klases atrašanas vieta projektā
 import java.util.Scanner;
 
 public class App 
-{
+
+public static void main( String[] args ) {
+    Scanner scanner = new Scanner(System.in);
+
+    System.out.println("Give number: ");
+        int number = Integer.valueOf(scanner.nextLine());
+    
+    while (true) {
+        if (number == 0) {
+            break;
+        }
+        else if (number < 0) {
+            System.out.println("Unsuitable number");
+            continue;
+        }
+        else{
+            System.err.println(number * number);
+        }
+
+    }
+}
+/* {
 public static void main( String[] args ) {
     Scanner scanner = new Scanner(System.in);
 
