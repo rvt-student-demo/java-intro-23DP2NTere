@@ -4,7 +4,29 @@ import java.util.Scanner;
 
 public class App 
 
+
+
+
 public static void main( String[] args ) {
+    Scanner scanner = new Scanner(System.in);
+
+    int number = 0;
+    int summ = 0;
+
+    while (input != 0) {
+        System.out.println("Give number: ");
+            int input = Intefer.valueOf(scanner.nextLine());
+
+        number += 1;
+        summ = summ + input;
+
+    }
+
+    System.out.println("Number of numbers: " + number);
+    System.out.println("Sum of numbers: " + number);
+}
+
+/* public static void main( String[] args ) {
     Scanner scanner = new Scanner(System.in);
 
     System.out.println("Give number: ");
