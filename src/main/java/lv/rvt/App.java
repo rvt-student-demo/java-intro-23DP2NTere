@@ -2,20 +2,50 @@ package lv.rvt; // Klases atrašanas vieta projektā
 
 import java.util.Scanner;
 
+
 public class App {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Give numbers: ");
+            int number = Integer.valueOf(scanner.nextLine());
+
+        int sum = 0;
+
+        while (number != -1) {
+            System.out.println();
+            number = Integer.valueOf(scanner.nextLine());
+            sum = sum + number;
+        }
+        System.out.println("Thx! Bye!");
+        System.out.println(sum);
+
+
+
+    }
+}
+
+
+/* public class App {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Input a number lower than 100: ");
         int number = Integer.valueOf(scanner.nextLine());
 
+        if (number == 1) {
+            System.out.println("Factorial: " + 1);
+        else {
 
-        for (int i = number; i < 101; i++) {
-                System.out.println(i);
+            for (int i = number; i * number; i++) 
+            System.out.println(i);
+            
         }
     }
-
 }
+}
+
+
 /* public static void main( String[] args ) {
     Scanner scanner = new Scanner(System.in);
 
