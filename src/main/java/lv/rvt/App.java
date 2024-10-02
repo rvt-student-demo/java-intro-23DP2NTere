@@ -4,7 +4,33 @@ import java.util.Scanner;
 
 
 public class App {
+
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+            System.out.println("Input number: ");
+            int number = Integer.valueOf(scanner.nextLine());
+
+            
+            printUntilNumber(number);
+
+    
+        // ask the user for the number of times that the phrase will be printed
+        // use the while command to call the method a suitable number of times
+    }
+    
+    public static void printUntilNumber(int number) {
+        int i = 0;
+        while (i < number) {
+            i = i + 1;
+            System.out.println(i);
+        }
+
+
+    }
+}
+
+
+    /* public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Give numbers: ");
@@ -25,6 +51,10 @@ public class App {
     }
 }
 
+
+    public static void greet() {
+        System.out.println("Greetings from the method world!");
+    }
 
 /* public class App {
     public static void main(String[] args) {
