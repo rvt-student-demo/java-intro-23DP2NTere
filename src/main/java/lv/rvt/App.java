@@ -2,10 +2,115 @@ package lv.rvt; // Klases atrašanas vieta projektā
 
 import java.util.Scanner;
 
-
 public class App {
+    public static void main(String[] args) {
+
+        ArrayList<String> strList = new ArrayList<>();
+        srtList.add("Koks");
+        strList.add("Stabs");
+
+        System.out.println(1);
+        
+        ArrayList<Integer> intList = new ArrayList<>();
+        intList.add(22);
+
+        ArrayList<Boolean> boolList = new ArrayList<>();
+        boolList.add(true);
+
+        ArrayList<Double> doubleList = new ArrayList<>();
+        doubleList.add(20.2);
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*    public static void printStart(String[] args) {
+        Scanner scanner = new scanner(System.in);
+
+        System.out.println("Ievadient rindu daudzumu: ");
+        int rindas = scanner.nextInt();
+
+        for (int k = 1; )
+    }
+}
+
+
+
+
+
+
+
+/*public class App {
 
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(system.in);
+        
+        int a = 3;
+        int b = 6;
+
+        divisibleByThreeInRange(a, b);
+
+
+    }
+
+    public static void divisibleByThreeInRange(int a, int b) {
+        for (int i = a; a; b + 1;) {
+
+            if (i % 3 == 0) {
+                System.out.println("i");
+            }
+            i++;
+           
+        }
+    }
+}
+
+
+    /* public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
             System.out.println("Input number: ");
             int number = Integer.valueOf(scanner.nextLine());
