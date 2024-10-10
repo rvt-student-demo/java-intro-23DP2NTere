@@ -3,26 +3,23 @@ package lv.rvt; // Klases atrašanas vieta projektā
 import java.util.Scanner;
 
 public class App {
+
     public static void main(String[] args) {
 
+        Scanner scanner= new scanner(System.in);
+
         ArrayList<String> strList = new ArrayList<>();
-        srtList.add("Koks");
-        strList.add("Stabs");
 
-        System.out.println(1);
-        
-        ArrayList<Integer> intList = new ArrayList<>();
-        intList.add(22);
-
-        ArrayList<Boolean> boolList = new ArrayList<>();
-        boolList.add(true);
-
-        ArrayList<Double> doubleList = new ArrayList<>();
-        doubleList.add(20.2);
-
+        int x = 0;
+    
+        while (true) {
+            
+            System.out.println("Ievadiet elementus");
+            strList[x] = scanner.nextInt();
+                
+        }
     }
 }
-
 
 
 
