@@ -5,8 +5,12 @@ import java.util.Scanner;
 public class App {
     
     public static void main(String[] args) {
-        Person ada = new Person("Ada")
+
+        Product banana = new Product("Banana", 1, 13);
+        banana.printProduct();
+
     }
+}
 
 
 
