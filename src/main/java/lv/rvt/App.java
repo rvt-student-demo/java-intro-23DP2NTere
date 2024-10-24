@@ -3,25 +3,10 @@ package lv.rvt; // Klases atrašanas vieta projektā
 import java.util.Scanner;
 
 public class App {
-
-    public static void main(String[] args) {
-
-        Scanner scanner= new scanner(System.in);
-
-        ArrayList<String> strList = new ArrayList<>();
-
-        int x = 0;
     
-        while (true) {
-            
-            System.out.println("Ievadiet elementus");
-            strList[x] = scanner.nextInt();
-                
-        }
+    public static void main(String[] args) {
+        Person ada = new Person("Ada")
     }
-}
-
-
 
 
 
