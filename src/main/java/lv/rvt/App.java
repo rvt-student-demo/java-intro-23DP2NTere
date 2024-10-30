@@ -6,11 +6,25 @@ public class App {
     
     public static void main(String[] args) {
 
-        Product banana = new Product("Banana", 1, 13);
-        banana.printProduct();
+        DecreasingCounter counter = new DecreasingCounter(100);
+
+        counter.printValue();
+
+        counter.decrement();
+        counter.printValue();
+
+        counter.decrement();
+        counter.printValue();
+
+        counter.reset();
+        counter.printValue();
+
+        counter.decrement();
+        counter.printValue();
+    }
 
     }
-}
+
 
 
 
