@@ -6,14 +6,20 @@ public class Statistics {
 
     public Statistics() {
         // initialize the variable numberCount here
+        int numberCount;
     }
 
     public void addNumber(int number) {
-        // write code here
+
     }
 
     public int getCount() {
         // write code here
+        
+    }
+
+    public int sum() {
+
     }
 }
 
