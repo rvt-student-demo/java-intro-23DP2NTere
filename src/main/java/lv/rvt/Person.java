@@ -26,7 +26,14 @@ public class Person {
         return this.weight / (heigthPerHundred * heigthPerHundred);
     }
 
+    public String getName() {
+        return this.name;
+    }
+
+    public String toString() {
+        return this.name + ", age " + this.age + " years, my body mass index is " + this.bodyMassIndex();
     // ...
+    }
 }
-    
+
 

@@ -7,9 +7,22 @@ public class App {
     public static void main(String[] args) {
     
     
-    Agent bond = new Agent("James", "Bond");
-    System.out.println(bond);
+        Person matti = new Person("Matti");
+        Person juhana = new Person("Juhana");
+        Person nils = new Person("Nils");
+    
+        matti.setHeight(180);
+        matti.setWeight(86);
+    
+        juhana.setHeight(175);
+        juhana.setWeight(64);
 
+        nils.setHeight(180);
+        nils.setWeight(70);
+    
+        System.out.println(matti.getName() + ", body mass index is " + matti.bodyMassIndex());
+        System.out.println(juhana.getName() + ", body mass index is " + juhana.bodyMassIndex());
+        System.out.println(nils.getName() + ", body mass index is " + nils.bodyMassIndex());
     
 
 
