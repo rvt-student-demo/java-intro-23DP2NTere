@@ -30,6 +30,7 @@ public class Person {
         return this.name;
     }
 
+    
     public String toString() {
         return this.name + ", age " + this.age + " years, my body mass index is " + this.bodyMassIndex();
     // ...
