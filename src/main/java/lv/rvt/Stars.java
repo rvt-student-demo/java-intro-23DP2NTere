@@ -31,7 +31,7 @@ public class Stars {
     public static void printTriangle(int size) {
         for (int i = 0; i < size; i++) {
             
-            System.out.print()
+            System.out.print("");
         }
     }
 

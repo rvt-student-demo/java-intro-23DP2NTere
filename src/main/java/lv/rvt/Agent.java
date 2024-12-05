@@ -1,6 +1,7 @@
 package lv.rvt;
 
-    private class Agent {
+    public class Agent {
+
         private String firstname;
         private String lastname;
     
