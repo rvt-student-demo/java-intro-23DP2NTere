@@ -8,25 +8,24 @@ import java.util.Scanner;
 public class App {
     
     public static void main(String[] args) throws Exception {
-  
-        HealthStation childrensHospital = new HealthStation();
+        Scanner scanner = new Scanner(System.in);
 
-        Person ethan = new Person("Ethan", 1, 110, 7);
-        Person peter = new Person("Peter", 33, 176, 85);
-    
-        System.out.println("weighings performed: " + childrensHospital.weighings());
-    
-        childrensHospital.weigh(ethan);
-        childrensHospital.weigh(peter);
-    
-        System.out.println("weighings performed: " + childrensHospital.weighings());
-    
-        childrensHospital.weigh(ethan);
-        childrensHospital.weigh(ethan);
-        childrensHospital.weigh(ethan);
-        childrensHospital.weigh(ethan);
-    
-        System.out.println("weighings performed: " + childrensHospital.weighings());
+        boolean isProgramRunning = true;
+
+        System.out.println("Welcome to person manager, type \"help\" to see available commands.");
+
+        while (isProgramRunning) {
+            String command = scanner.nextLine();
+            System.out.println("Your command was: " + command);
+
+            if (command.equals("exit")) {
+                System.out.println("Thanks, bye bye!");
+                isProgramRunning = false;
+            } else if (command.equals("help")) {
+                System.out.println("Existing commands: \n -help \n -add \n -show \n -exit");
+            }
+            
+        }
     }
 }
 

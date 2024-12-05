@@ -8,6 +8,6 @@ public class PersonManager {
 
 
     public static ArrayList<Person> getPersonList() {
-        return //arraylist ar person objektiem;
+        return new ArrayList<>();//arraylist ar person objektiem;
     }
 }
