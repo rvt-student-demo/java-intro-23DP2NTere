@@ -8,7 +8,24 @@ import java.util.Scanner;
 public class App {
     
     public static void main(String[] args) throws Exception {
-        Scanner scanner = new Scanner(System.in);
+
+        Box box1 = new Box(2.0, 3.0, 5.0);
+        System.out.println(box1.volume());
+        System.out.println(box1.area());
+        
+        Box box2 = new Box(box1);
+        System.out.println(box2.volume());
+        System.out.println(box2.area());
+
+        Box box3 = box1.biggerBox(box1);
+        System.out.println(box3.area());
+
+
+    }
+}
+
+
+        /* Scanner scanner = new Scanner(System.in);
 
         boolean isProgramRunning = true;
 
@@ -27,7 +44,9 @@ public class App {
             
         }
     }
-}
+} */
+
+
 
         
     
