@@ -9,12 +9,12 @@ public class App {
     
     public static void main(String[] args) throws Exception {
 
-        C c = new C();
-
-        c.a();
-        c.b();
-        c.c();
+        Student ollie = new Student("Ollie", "6381 Hollywood Blvd. Los Angeles 90028");
+        System.out.println(ollie);
+        ollie.study();
+        System.out.println(ollie);
     }
+
 }
 
 
