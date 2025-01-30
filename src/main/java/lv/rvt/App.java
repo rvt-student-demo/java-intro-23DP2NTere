@@ -8,12 +8,11 @@ import java.util.Scanner;
 public class App {
     
     public static void main(String[] args) throws Exception {
-
-        Student ollie = new Student("Ollie", "6381 Hollywood Blvd. Los Angeles 90028");
-        System.out.println(ollie);
-        ollie.study();
-        System.out.println(ollie);
+        
+        Warehouse house = new Warehouse(100, 10);
+        house.addToWarehouse(10);
     }
+        
 
 }
 
