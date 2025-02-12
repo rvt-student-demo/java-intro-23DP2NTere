@@ -9,6 +9,7 @@ public class CD implements Packable {
         this.artist = artist;
         this.name = name;
         this.year = year;
+        System.out.println(name + artist + " (" + year + ")");
     }
 
     @Override

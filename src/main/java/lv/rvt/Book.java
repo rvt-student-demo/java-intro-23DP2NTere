@@ -9,6 +9,7 @@ public class Book implements Packable {
         this.author = author;
         this.name = name;
         this.weight = weight;
+        System.out.println(author + ": " + name);
     }
 
     @Override

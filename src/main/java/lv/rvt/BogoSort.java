@@ -30,6 +30,5 @@ public class BogoSort {
         System.out.println("Imput your number from 1 (included) to 20 (included): " + "\n");
         int value = scanner.nextInt();
 
-        while ()
 } 
 }       
