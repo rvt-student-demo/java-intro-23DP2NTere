@@ -1,28 +1,39 @@
 package lv.rvt; // Klases atrašanas vieta projektā
 
+import java.util.Arrays;
 import java.io.BufferedWriter;
 import java.nio.file.StandardOpenOption;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+
 public class App {
     
     public static void main(String[] args) throws Exception {
         
-        Book book1 = new Book("Fyodor Dostoevsky", "Crime and Punishment", 2);
-        Book book2 = new Book("Robert Martin", "Clean Code", 1);
-        Book book3 = new Book("Kent Beck", "Test Driven Development", 0.5);
+        int[] intArr = {5, 4, 3, 7, 6, 2};
+        double[] doubleArr = {5.6, 4.4, 3.3, 1.8, 2.0};
+        String[] stringArr = {"cc", "bb", "aa", "ac"};
+
+        //Parastā masīva printēšana
+        System.out.println(Arrays.toString(intArr));
     
-        CD cd1 = new CD("Pink Floyd", "Dark Side of the Moon", 1973);
-        CD cd2 = new CD("Wigwam", "Nuclear Nightclub", 1975);
-        CD cd3 = new CD("Rendezvous Park", "Closer to Being Here", 2012);
+        //Masīva kātošana
+        Arrays.sort(doubleArr);
+
+        System.out.println(Arrays.toString(doubleArr));
+
+        ArrayList<Person2> personList = new ArrayList<>();
+        personList.add(new Person2("John", "Riga"));
     
-        System.out.println(book1);
-        System.out.println(book2);
-        System.out.println(book3);
-        System.out.println(cd1);
-        System.out.println(cd2);
-        System.out.println(cd3);    
+        //Filtrēšana
+        int[] intArr2 = {5, 4, 3, 7, 6, 2};
+        String[] stringArr2 = {"John", "Bob", " Peter", "Jack"};
+        for (String value : stringArr2) {
+            if (value.contains("ete")) {
+                System.out.println(value);                
+            }
+        }    
     }
         
 

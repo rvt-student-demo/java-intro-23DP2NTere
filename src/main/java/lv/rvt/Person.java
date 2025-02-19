@@ -7,7 +7,7 @@ public class Person {
     private int weight;
     private int height;
 
-    public Person(String name) {
+    public Person(String name ) {
         this(name, 0, 0, 0);
     }
 
