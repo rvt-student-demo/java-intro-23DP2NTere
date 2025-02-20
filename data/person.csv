@@ -1,5 +1,5 @@
-Name, Age, Weight, Height
-Janis Zarins, 5, 20, 101
-Peteris Ozolins, 10, 35, 150
-Niks Berzins, 20, 80, 185
-Darja Donika, 17, 58, 162
+Name, Age, Weight, Height, Address
+Janis Zarins, 5, 20, 101, Riga
+Peteris Ozolins, 10, 35, 150, Riga
+Niks Berzins, 20, 80, 185, Liepaja
+Darja Donika, 17, 58, 162, Jurmala

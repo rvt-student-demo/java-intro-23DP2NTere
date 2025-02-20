@@ -7,6 +7,19 @@ public class Person {
     private int weight;
     private int height;
 
+
+    public String adress;
+
+    public Person(String name, String adress) {
+        this.name = name;
+        this.adress = adress;
+
+    }
+
+    public String getAdress() {
+        return adress;
+    }
+
     public Person(String name ) {
         this(name, 0, 0, 0);
     }
